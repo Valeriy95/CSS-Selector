@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(47, 42, 40);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.game {
+    height: auto;
+    width: 75%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.title {
+    width: 90%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    height: 60px;
+    font-size: 32px;
+    color: rgb(119, 119, 119);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 970px) {
+
+    .container {
+        justify-content: center;
+    }
+    
+}

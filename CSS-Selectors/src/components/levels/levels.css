@@ -1,0 +1,439 @@
+.game_levels {
+    position: fixed;
+    background-color: rgb(27, 25, 22);
+    height: 100vh;
+    width: 25%;
+    right: 0px;
+    top: 0px;
+    z-index: 2;
+    transition: 1s;
+}
+
+.game_levels__title {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 90px;
+    font-size: 30px;
+    color: rgb(119, 119, 119);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.game_levels__wrapper1,
+.game_levels__wrapper2,
+.game_levels__wrapper3,
+.game_levels__wrapper4,
+.game_levels__wrapper5,
+.game_levels__wrapper6,
+.game_levels__wrapper7,
+.game_levels__wrapper8,
+.game_levels__wrapper9,
+.game_levels__wrapper10 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.game_levels__num1,
+.game_levels__num2,
+.game_levels__num3,
+.game_levels__num4,
+.game_levels__num5,
+.game_levels__num6,
+.game_levels__num7,
+.game_levels__num8,
+.game_levels__num9,
+.game_levels__num10 {
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 10px;
+}
+
+.game_levels__label1,
+.game_levels__label2,
+.game_levels__label3,
+.game_levels__label4,
+.game_levels__label5,
+.game_levels__label6,
+.game_levels__label7,
+.game_levels__label8,
+.game_levels__label9,
+.game_levels__label10 {
+        width: 30px;
+        height: 30px;
+        padding-left: 10px;
+} 
+
+.levels_label_help1 {
+    position: absolute;
+    height: 17px;
+    width: 30px;
+    right: 20px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 3px;
+    background-color: rgb(214, 212, 212);
+    color: rgb(119, 119, 119)
+} 
+
+.levels_label_help2 {
+    position: absolute;
+    height: 17px;
+    width: 30px;
+    right: 20px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 3px;
+    background-color: rgb(214, 212, 212);
+    color: rgb(119, 119, 119)
+} 
+
+.levels_label_help3 {
+    position: absolute;
+    height: 17px;
+    width: 30px;
+    right: 20px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 3px;
+    background-color: rgb(214, 212, 212);
+    color: rgb(119, 119, 119)
+} 
+
+.levels_label_help4 {
+    position: absolute;
+    height: 17px;
+    width: 30px;
+    right: 20px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 3px;
+    background-color: rgb(214, 212, 212);
+    color: rgb(119, 119, 119)
+} 
+
+.levels_label_help5 {
+    position: absolute;
+    height: 17px;
+    width: 30px;
+    right: 20px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 3px;
+    background-color: rgb(214, 212, 212);
+    color: rgb(119, 119, 119)
+} 
+
+.levels_label_help6 {
+    position: absolute;
+    height: 17px;
+    width: 30px;
+    right: 20px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 3px;
+    background-color: rgb(214, 212, 212);
+    color: rgb(119, 119, 119)
+} 
+
+.levels_label_help7 {
+    position: absolute;
+    height: 17px;
+    width: 30px;
+    right: 20px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 3px;
+    background-color: rgb(214, 212, 212);
+    color: rgb(119, 119, 119)
+} 
+
+.levels_label_help8 {
+    position: absolute;
+    height: 17px;
+    width: 30px;
+    right: 20px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 3px;
+    background-color: rgb(214, 212, 212);
+    color: rgb(119, 119, 119)
+} 
+
+.levels_label_help9 {
+    position: absolute;
+    height: 17px;
+    width: 30px;
+    right: 20px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 3px;
+    background-color: rgb(214, 212, 212);
+    color: rgb(119, 119, 119)
+} 
+
+.levels_label_help10 {
+    position: absolute;
+    height: 17px;
+    width: 30px;
+    right: 20px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 3px;
+    background-color: rgb(214, 212, 212);
+    color: rgb(119, 119, 119)
+}
+
+.game_levels__wrapper1:hover, 
+.game_levels__wrapper2:hover, 
+.game_levels__wrapper3:hover, 
+.game_levels__wrapper4:hover, 
+.game_levels__wrapper5:hover, 
+.game_levels__wrapper6:hover, 
+.game_levels__wrapper7:hover, 
+.game_levels__wrapper8:hover, 
+.game_levels__wrapper9:hover, 
+.game_levels__wrapper10:hover {
+    background-color: rgb(54, 52, 52);
+    cursor: pointer;
+}
+
+.game_levels__btn_reset,
+.game_levels__btn_help {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: center;
+    border: 1px solid rgb(119, 119, 119);
+    border-bottom: 8px solid rgb(119, 119, 119);
+    border-radius: 3px;
+    background-color: rgb(214, 212, 212);
+    color: rgb(119, 119, 119);
+}
+
+.game_levels__btn_reset:hover,
+.game_levels__btn_help:hover {
+    cursor: pointer;
+}
+
+.active_lev {
+    color: rgb(155, 101, 0);
+    font-size: 800;
+}
+
+.active_background {
+    background-color: rgb(90, 87, 87);
+}
+
+#green {
+    background-color: rgb(30, 255, 0);
+    border-color: rgb(37, 160, 0);;
+}
+
+#yellow {
+    background-color: rgb(255, 255, 0);
+    border-color: rgb(177, 177, 0);
+}
+
+.square_small {
+    display: block;
+    height: 35px;
+    width: 35px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    box-shadow: 0px 5px 0px rgba(0,0,0,.2);
+    background: #0004ff;
+    border-color: #020491;
+    border-width: 1px 2px 4px 2px;
+}
+
+elipse {
+    display: block;
+    height: 60px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-style: solid;
+    box-shadow: 0px 5px 0px rgba(0,0,0,.2);
+    background: #9e0089;
+    border-color: #6c005e;
+    border-width: 1px 2px 4px 2px;
+}
+
+.yellow {    
+    background: #fbff00;
+    border-color: #a4a700;
+}
+
+.small {
+    display: block;
+    height: 30px;
+    width: 15px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.small_circle {
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#brown {
+    height: 30px;
+    width: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #964b00 ;
+    border-color: #6e3700 ;
+}
+
+#gray {
+    height: 30px;
+    width: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #808080 ;
+    border-color: #525252 ;
+}
+
+.element_hover {
+    box-shadow: 0px 0px 0px;
+    border:  8px solid #cac4b1;
+}
+
+.parent {
+    pointer-events: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.animation_btn_reset {
+    animation: anim_btn_reset 0.2s;
+}
+
+@keyframes anim_btn_reset {
+    50% {
+        margin-top: 44px;
+        border-width: 1px 1px 2px 1px;
+    }
+}
+
+.animation_btn_help {
+    animation: anim_btn_help 0.2s;
+}
+
+@keyframes anim_btn_help {
+    50% {
+        position: relative;
+        border-width: 1px 1px 2px 1px;
+        top: 4px;
+    }
+}
+
+.game_levels__wrapper_btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.hovered_icon {
+    box-shadow: 0px 0px 0px;
+    border:  8px solid #cac4b1;
+
+}
+
+.hovered_text {
+    background-color: rgb(119, 119, 119) !important;
+}
+
+.text_win {
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(119, 119, 119);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.wrapper__text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.burger__menu {
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    z-index: 3;
+    transition: 1s;
+}
+
+.module__window {
+    display: none;
+    position: absolute;
+    width: 98vw;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.8);
+}
+
+.rotated__element {
+    transform: rotate(90deg);
+    transition: 1s;
+  }
+
+.hljs {
+    color: #ff6969;
+}
+
+@media (max-width: 970px) {
+
+    .game_levels {
+        right: -100%;
+        width: 310px;
+    }
+
+    .burger__menu {
+        display: block;
+    }
+}
+
+.show__module__window {
+    display: block;
+}
+
+.show__levels__menu {
+    right: 0;
+    transition: 1s;
+}
